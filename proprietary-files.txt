@@ -26,10 +26,8 @@ vendor/lib/fireos.hardware.audio@4.0.so
 vendor/lib/fireos.hardware.audiosignalprocessor@1.0.so
 vendor/lib/fireos.hardware.audiosignalprocessor@1.1.so
 vendor/lib/vendor.mediatek.hardware.atci@1.0.so
-vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so
 vendor/lib/hw/fireos.hardware.audio@4.0-impl.so
 vendor/lib/hw/fireos.hardware.audiosignalprocessor@1.0-impl.so
-vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so
 vendor/bin/audiocmdservice_atci
 vendor/bin/atcid
 vendor/lib/hw/audio.btle.default.so
@@ -532,13 +530,8 @@ vendor/lib/hw/fireos.hardware.fireosdha@2.0-impl.so
 vendor/etc/init/fireos.hardware.fireosdha@2.0-service.rc
 
 # DRM
-vendor/bin/hw/android.hardware.drm@1.0-service
-vendor/bin/hw/android.hardware.drm@1.1-service.clearkey
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
-vendor/etc/init/android.hardware.drm@1.0-service.rc
-vendor/etc/init/android.hardware.drm@1.1-service.clearkey.rc
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
-vendor/lib/hw/android.hardware.drm@1.0-impl.so
 vendor/lib/hw/amzn_drmprov.mt8183.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libwvhidl.so
@@ -554,16 +547,6 @@ vendor/bin/amzn_drmprov_tool
 vendor/etc/init/amzn_drmprov_check.rc
 
 # Display
-vendor/bin/hw/android.hardware.graphics.allocator@2.0-service
-vendor/bin/hw/android.hardware.graphics.composer@2.1-service
-vendor/bin/hw/android.hardware.memtrack@1.0-service
-vendor/etc/init/android.hardware.graphics.allocator@2.0-service.rc
-vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc
-vendor/etc/init/android.hardware.memtrack@1.0-service.rc
-vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so
-vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so
-vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so
-vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/lib/hw/vendor.mediatek.hardware.pq@2.2-impl.so
 vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
@@ -613,16 +596,10 @@ vendor/firmware/goodix_firmware.bin
 vendor/etc/agps_profiles_conf2.xml
 
 # Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service
-vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
 vendor/lib/hw/libSoftGatekeeper.so
 vendor/lib/hw/gatekeeper.mt8183.so
 
 # Health
-vendor/bin/hw/android.hardware.health@2.0-service
-vendor/bin/hw/android.hardware.health@2.0-service.override
-vendor/etc/init/android.hardware.health@2.0-service.rc
 vendor/lib/libfgauge_gm30.so
 vendor/bin/fuelgauged
 vendor/bin/fuelgauged_nvram
@@ -640,9 +617,6 @@ vendor/lib/fireos.hardware.idme@1.0.so
 vendor/bin/idme
 
 # Keymaster
-vendor/bin/hw/android.hardware.keymaster@3.0-service
-vendor/etc/init/android.hardware.keymaster@3.0-service.rc
-vendor/lib/hw/android.hardware.keymaster@3.0-impl.so
 vendor/lib/hw/keystore.mt8183.so
 vendor/lib/libkeymaster3device.so
 vendor/lib/libkeystore-engine-wifi-hidl.so
@@ -779,12 +753,9 @@ vendor/lib/hw/android.hardware.sensors@1.0-impl-mediatek.so
 vendor/bin/hw/android.hardware.sensors@1.0-service-mediatek
 
 # Thermal
-vendor/bin/hw/android.hardware.thermal@1.0-service
 vendor/bin/hw/fireos.hardware.amazonthermal@1.0-service
-vendor/etc/init/android.hardware.thermal@1.0-service.rc
 vendor/etc/init/fireos.hardware.amazonthermal@1.0-service.rc
 vendor/lib/fireos.hardware.amazonthermal@1.0.so
-vendor/lib/hw/android.hardware.thermal@1.0-impl.so
 vendor/lib/hw/fireos.hardware.amazonthermal@1.0-impl.so
 vendor/lib/hw/thermal.mt8183.so
 vendor/lib/libthermalalgo.so
