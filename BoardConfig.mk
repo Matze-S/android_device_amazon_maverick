@@ -89,6 +89,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/recovery.fstab
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
 # Network Routing
 TARGET_IGNORES_FTP_PPTP_CONNTRACK_FAILURE := true
