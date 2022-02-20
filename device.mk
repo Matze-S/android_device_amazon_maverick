@@ -33,6 +33,29 @@ TARGET_SCREEN_HEIGHT := 1920
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    factory_init.connectivity.rc \
+    factory_init.project.rc \
+    factory_init.rc \
+    fstab.mdump \
+    fstab.mount_keys.ro \
+    fstab.mount_keys.rw \
+    fstab.mt8183 \
+    init.connectivity.rc \
+    init.mdump.rc \
+    init.modem.rc \
+    init.mt8183.rc \
+    init.mt8183.usb.rc \
+    init.project.rc \
+    init.sensor_1_0.rc \
+    meta_init.connectivity.rc \
+    meta_init.modem.rc \
+    meta_init.project.rc \
+    meta_init.rc \
+    multi_init.rc \
+    ueventd.mtk.rc
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
