@@ -785,10 +785,6 @@ vendor/lib/fireos.hardware.localtime@1.0.so
 vendor/bin/securetime
 vendor/etc/init/securetime.rc
 
-# USB
-vendor/bin/hw/android.hardware.usb@1.1-service-mediatek
-vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc
-
 # WiFi
 bin/iwpriv
 vendor/bin/iwpriv
