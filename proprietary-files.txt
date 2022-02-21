@@ -783,7 +783,6 @@ vendor/bin/securetime
 vendor/etc/init/securetime.rc
 
 # WiFi
-bin/iwpriv
 vendor/bin/iwpriv
 vendor/bin/wifitesttool
 vendor/bin/wmt_concurrency
