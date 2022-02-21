@@ -37,6 +37,9 @@ PRODUCT_SOONG_NAMESPACES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+    WifiOverlay
+
 # Rootdir
 PRODUCT_PACKAGES += \
     factory_init.connectivity.rc \
