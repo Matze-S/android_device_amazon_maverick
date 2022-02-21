@@ -47,9 +47,6 @@ ro.vendor.mtk_widevine_drm_l1_support=1
 # FMRadio
 fmradio.driver.enable=0
 
-# FRP
-ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp
-
 # GPS
 ro.vendor.mtk_gps_support=0
 
