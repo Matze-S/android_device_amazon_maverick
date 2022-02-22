@@ -782,25 +782,22 @@ vendor/lib/fireos.hardware.localtime@1.0.so
 vendor/bin/securetime
 vendor/etc/init/securetime.rc
 
-# WiFi
-vendor/bin/iwpriv
-vendor/bin/wifitesttool
-vendor/bin/wmt_concurrency
-vendor/bin/wmt_fdb
-vendor/bin/wmt_launcher
-vendor/bin/wmt_loader
-vendor/bin/wmt_loopback
-vendor/bin/hw/wpa_supplicant
-vendor/bin/hw/hostapd
-vendor/lib/libwifi-hal.so
-vendor/lib/libwifitest.so
-vendor/etc/init/init.bt_drv.rc
-vendor/etc/init/init.wlan_drv.rc
-vendor/etc/init/init.wmt_drv.rc
-vendor/etc/init/init_connectivity.rc
-vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek
-vendor/etc/init/android.hardware.wifi@1.0-service-mediatek.rc
-vendor/bin/hw/fireos.hardware.connectivity.networkpower@1.0-service
-vendor/etc/init/fireos.hardware.connectivity.networkpower@1.0-service.rc
-vendor/lib/fireos.hardware.connectivity.networkpower@1.0.so
-vendor/lib/fireos.hardware.connectivity@1.0.so
+# WiFi - from maverick - maverick-user 7.0 PS7312 1271 amz-p,release-keys
+vendor/bin/iwpriv|e57b9cf68e5036ea10c010a99e03d4dc45f72d14
+vendor/bin/wifitesttool|5b8ad2078a05b56094d492bfaf2835592b5acedd
+vendor/bin/wmt_concurrency|9ee58e1a0d0325a314c2bd32ca7b27c094da7889
+vendor/bin/wmt_fdb|2f0a768ca39283fccd52b660800a7ebab6da31eb
+vendor/bin/wmt_launcher|44b3ad99068ef6c57c49d01f06037b764b8fa352
+vendor/bin/wmt_loader|18238e5fdb3d60022707b2d94602a5cd5ebe974c
+vendor/bin/wmt_loopback|81a03fd59b18781a1f163ed609d36ba977dbaa12
+vendor/bin/hw/wpa_supplicant|6fc8170c0469764a0860189a79aff9a3dde0c54e
+vendor/bin/hw/hostapd|3d79258da7964425eab20f1685c6e464788289f4
+vendor/lib/libwifi-hal.so|5e6398cb2e7f442e2fbb78f4a30514f0fb4dc9f7
+vendor/lib/libwifitest.so|0dee7ea03b8395130a0ec5f033301668428ee337
+vendor/etc/init/init.bt_drv.rc|950b6a6a338ab5a8fd6660375f27f6c22f79325f
+vendor/etc/init/init.wlan_drv.rc|5bbebe33ade8fed48a6a8707aad623260d6ebe94
+vendor/etc/init/init.wmt_drv.rc|6f1c58212a8222c562d08c9bb17db1135b6e89ad
+vendor/etc/init/init_connectivity.rc|227eacc3579afb0ce5fe0c2894151add331bb37f
+vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek|a965f85aab48645b376e1236e831d3106c66c0df
+vendor/etc/init/android.hardware.wifi@1.0-service-mediatek.rc|075d810909db410f1b6361a7814ea70d
+vendor/lib/fireos.hardware.connectivity@1.0.so|32db0954da7bb8ba1036daca68a77b2d6b3eaff1
