@@ -62,6 +62,9 @@ function blob_fixup() {
 	vendor/lib/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite_v28.so" "${2}"
             ;;
+	vendor/lib/libnvram.so)
+            "${PATCHELF}" --add-needed "libshim_nvram.so" "${2}"
+            ;;
     esac
 }
 
