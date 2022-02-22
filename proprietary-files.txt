@@ -790,6 +790,8 @@ vendor/bin/wmt_fdb
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/bin/wmt_loopback
+vendor/bin/hw/wpa_supplicant
+vendor/bin/hw/hostapd
 vendor/lib/libwifi-hal.so
 vendor/lib/libwifitest.so
 vendor/etc/init/init.bt_drv.rc
