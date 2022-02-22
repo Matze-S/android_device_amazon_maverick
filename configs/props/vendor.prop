@@ -50,6 +50,9 @@ fmradio.driver.enable=0
 # GPS
 ro.vendor.mtk_gps_support=0
 
+# Media
+debug.stagefright.ccodec=0
+
 # Radio
 ro.vendor.mtk_protocol1_rat_config=no
 ro.telephony.default_network=0
