@@ -52,6 +52,7 @@ ro.vendor.mtk_gps_support=0
 
 # Media
 debug.stagefright.ccodec=0
+media.stagefright.thumbnail.prefer_hw_codecs=true
 
 # Radio
 ro.vendor.mtk_protocol1_rat_config=no
