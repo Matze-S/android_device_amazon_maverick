@@ -2,7 +2,6 @@
 vendor/bin/kisd
 vendor/bin/mfv_ut
 vendor/bin/pr_device_cert_id
-vendor/bin/rpmb_svc
 vendor/bin/wipe_fos_flags
 vendor/lib/fireos.hardware.avls@1.0.so
 vendor/lib/fireos.hardware.avsync@1.0.so
@@ -16,7 +15,6 @@ vendor/lib/libmfllcore.so
 vendor/etc/init/kisd.rc
 vendor/etc/init/init.wipe_fos_flags.rc
 vendor/etc/init/pr_device_cert_id.rc
-vendor/etc/init/rpmb_svc.rc
 
 # Audio
 vendor/bin/hw/fireos.hardware.audio@2.0-service
@@ -739,6 +737,10 @@ vendor/etc/cdma_ecc_list_OP01.xml
 vendor/etc/cdma_ecc_list_OP09.xml
 vendor/etc/cdma_ecc_list_OP12.xml
 vendor/etc/cdma_ecc_list_ss.xml
+
+# RPMB - from maverick - maverick-user 7.0 PS7312 1271 amz-p,release-keys
+vendor/bin/rpmb_svc|0c84036cc312786c1b4cb7b26ce56c4ed33fff94
+vendor/etc/init/rpmb_svc.rc|80c283b558ea8c04edcb70313a63f33d86d81208
 
 # Sensors
 vendor/lib/hw/sensors.mt8183.so
