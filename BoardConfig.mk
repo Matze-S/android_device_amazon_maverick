@@ -20,6 +20,7 @@ DEVICE_PATH := device/amazon/maverick
 
 # Platform
 TARGET_BOARD_PLATFORM := mt8183
+TARGET_BOOTLOADER_BOARD_NAME := maverick
 TARGET_NO_BOOTLOADER := true
 BOARD_VENDOR := amazon
 
