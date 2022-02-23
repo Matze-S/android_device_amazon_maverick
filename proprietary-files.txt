@@ -759,10 +759,8 @@ vendor/lib/libthermalalgo.so
 vendor/lib/libthha.so
 vendor/bin/thermal
 vendor/bin/thermalloadalgod
-vendor/bin/thermal_manager
 vendor/etc/init/init.thermal.rc
 vendor/etc/init/init.thermalloadalgod.rc
-vendor/etc/init/init.thermal_manager.rc
 vendor/etc/.tp/.thermal_policy_00
 vendor/etc/.tp/.thermal_policy_03
 vendor/etc/.tp/.thermal_policy_05
