@@ -33,6 +33,10 @@ TARGET_SCREEN_HEIGHT := 1920
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Rootdir
 PRODUCT_PACKAGES += \
     factory_init.connectivity.rc \
