@@ -49,6 +49,7 @@ PRODUCT_PACKAGES += \
     fstab.mount_keys.ro \
     fstab.mount_keys.rw \
     fstab.mt8183 \
+    fstab.mt8183_ramdisk \
     init.connectivity.rc \
     init.mdump.rc \
     init.modem.rc \
