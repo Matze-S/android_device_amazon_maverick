@@ -618,9 +618,6 @@ vendor/bin/idme
 
 # Keymaster
 vendor/lib/hw/keystore.mt8183.so
-vendor/lib/libkeymaster3device.so
-vendor/lib/libkeystore-engine-wifi-hidl.so
-vendor/lib/libkeystore-wifi-hidl.so
 vendor/lib/libkmsetkey.so
 vendor/lib/libtz_uree.so
 vendor/lib/vendor.mediatek.hardware.keymanage@1.0.so
