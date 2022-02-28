@@ -182,7 +182,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     $(LOCAL_PATH)/configs/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
 
-# VNDK
-PRODUCT_TARGET_VNDK_VERSION := 28
-
 $(call inherit-product-if-exists, vendor/amazon/maverick/maverick-vendor.mk)
