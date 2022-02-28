@@ -62,7 +62,6 @@ vendor/lib/lib_iir.so
 vendor/lib/lib_speech_enh.so
 vendor/lib/libspeechparser_vendor.so
 vendor/lib/libspeech_enh_lib.so
-vendor/lib/soundfx/libaudiopreprocessing.so
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 
