@@ -70,6 +70,8 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@4.0-impl \
     android.hardware.audio.effect@4.0-impl \
     android.hardware.soundtrigger@2.1-impl \
+    libalsautils \
+    libnbaio_mono \
     libtinyxml
 
 PRODUCT_COPY_FILES += \
