@@ -524,8 +524,6 @@ vendor/lib/libplayready.so
 vendor/lib/liburee_meta_drmkeyinstall_v2.so
 vendor/lib/lib_uree_mtk_modular_drm.so
 vendor/lib/lib_uree_mtk_video_secure_al.so
-vendor/lib/mediadrm/libdrmclearkeyplugin.so
-vendor/lib/mediadrm/libmockdrmcryptoplugin.so
 vendor/lib/mediadrm/libplayreadydrmplugin.so
 vendor/bin/amzn_drmprov_check
 vendor/bin/amzn_drmprov_tool
