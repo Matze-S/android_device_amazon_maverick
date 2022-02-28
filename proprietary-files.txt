@@ -17,26 +17,14 @@ vendor/etc/init/init.wipe_fos_flags.rc
 vendor/etc/init/pr_device_cert_id.rc
 
 # Audio
-vendor/bin/hw/fireos.hardware.audio@2.0-service
-vendor/etc/init/fireos.hardware.audio@2.0-service.rc
-vendor/lib/fireos.hardware.audio@2.0.so
-vendor/lib/fireos.hardware.audio@4.0.so
-vendor/lib/fireos.hardware.audiosignalprocessor@1.0.so
-vendor/lib/fireos.hardware.audiosignalprocessor@1.1.so
 vendor/lib/vendor.mediatek.hardware.atci@1.0.so
-vendor/lib/hw/fireos.hardware.audio@4.0-impl.so
-vendor/lib/hw/fireos.hardware.audiosignalprocessor@1.0-impl.so
 vendor/bin/audiocmdservice_atci
 vendor/bin/atcid
 vendor/lib/hw/audio.btle.default.so
-vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.mt8183.so
-vendor/lib/hw/audio.r_submix.default.so
 vendor/lib/hw/audio.r_submix.mt8183.so
-vendor/lib/hw/audio.usb.default.so
 vendor/lib/hw/audio.usb.mt8183.so
 vendor/lib/hw/audio.voice_dsp.default.so
-vendor/lib/hw/audio_policy.stub.so
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libaudiocompensationfilterc.so
 vendor/lib/libaudiocompensationfilter_vendor.so
