@@ -196,6 +196,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
+# Sensors
+PRODUCT_PACKAGES += \
+    libsensorndkbridge
+
 # Shims
 PRODUCT_PACKAGES += \
     libshim_nvram
