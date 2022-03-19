@@ -71,6 +71,10 @@ function blob_fixup() {
 	vendor/lib/libnvram.so)
             "${PATCHELF}" --add-needed "libshim_nvram.so" "${2}"
             ;;
+        vendor/lib/libmtkcam_stdutils.so)
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils_v28.so" "${2}"
+            "${PATCHELF}" --replace-needed "libcutils.so" "libcutils_v28.so" "${2}"
+            ;;
     esac
 }
 
