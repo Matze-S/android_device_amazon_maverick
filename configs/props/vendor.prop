@@ -38,6 +38,9 @@ vendor.mtk.vdec.waitkeyframeforplay=1
 ro.vendor.wfd.dummy.enable=1
 ro.vendor.wfd.iframesize.level=0
 ro.vendor.mtk_sec_video_path_support=1
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
 
 # DRM
 ro.vendor.amzn_drm_restore_from=idme
