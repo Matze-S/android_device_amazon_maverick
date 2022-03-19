@@ -772,13 +772,13 @@ vendor/bin/wmt_loader|18238e5fdb3d60022707b2d94602a5cd5ebe974c
 vendor/bin/wmt_loopback|81a03fd59b18781a1f163ed609d36ba977dbaa12
 vendor/bin/hw/wpa_supplicant|6fc8170c0469764a0860189a79aff9a3dde0c54e
 vendor/bin/hw/hostapd|3d79258da7964425eab20f1685c6e464788289f4
-vendor/lib/libwifi-hal.so|5e6398cb2e7f442e2fbb78f4a30514f0fb4dc9f7
+vendor/lib/libwifi-hal.so:vendor/lib/libwifi-hal-mtk.so|5e6398cb2e7f442e2fbb78f4a30514f0fb4dc9f7
 vendor/lib/libwifitest.so|0dee7ea03b8395130a0ec5f033301668428ee337
 vendor/etc/init/init.bt_drv.rc|950b6a6a338ab5a8fd6660375f27f6c22f79325f
 vendor/etc/init/init.wlan_drv.rc|5bbebe33ade8fed48a6a8707aad623260d6ebe94
 vendor/etc/init/init.wmt_drv.rc|6f1c58212a8222c562d08c9bb17db1135b6e89ad
 vendor/etc/init/init_connectivity.rc|227eacc3579afb0ce5fe0c2894151add331bb37f
-vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek|a965f85aab48645b376e1236e831d3106c66c0df
+vendor/bin/hw/android.hardware.wifi@1.0-service-mediatek|a965f85aab48645b376e1236e831d3106c66c0df|4e15b9a2f882e1fd8bc82ba4e6b8504b7591898f
 vendor/etc/init/android.hardware.wifi@1.0-service-mediatek.rc|075d810909db410f1b6361a7814ea70d
 vendor/lib/fireos.hardware.connectivity@1.0.so|32db0954da7bb8ba1036daca68a77b2d6b3eaff1
 
