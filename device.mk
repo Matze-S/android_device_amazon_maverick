@@ -217,7 +217,8 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0.vendor \
-    android.frameworks.sensorservice@1.0.vendor
+    android.frameworks.sensorservice@1.0.vendor \
+    libsensorndkbridge
 
 # Shims
 PRODUCT_PACKAGES += \
