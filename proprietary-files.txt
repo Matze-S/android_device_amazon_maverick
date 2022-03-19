@@ -38,7 +38,6 @@ vendor/lib/libaudioprimarydevicehalifclient.so
 vendor/lib/libaudiosetting.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libaudio_param_parser-vnd.so
-vendor/lib/libtinycompress.so
 vendor/lib/libaurisysdemo.so
 vendor/lib/libvoiceaudioutility.so
 vendor/lib/libbessound_hd_mtk_vendor.so
@@ -536,7 +535,6 @@ vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 vendor/lib/vendor.mediatek.hardware.pq@2.0.so
 vendor/lib/vendor.mediatek.hardware.pq@2.1.so
 vendor/lib/vendor.mediatek.hardware.pq@2.2.so
-vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gralloc.mt8183.so
 vendor/lib/hw/hwcomposer.mt8183.so
 vendor/lib/hw/memtrack.mt8183.so
@@ -646,7 +644,6 @@ vendor/lib/libvcodecdrv.so
 vendor/lib/libvcodec_oal.so
 vendor/lib/libvcodec_utility.so
 vendor/lib/libhwm.so
-vendor/lib/libhwminijail.so
 vendor/lib/libimageio.so
 vendor/lib/libimageio_plat_drv.so
 vendor/lib/libimageio_plat_pipe.so
@@ -676,7 +673,6 @@ vendor/lib/libcustom_nvram.so
 
 # Power
 vendor/bin/hw/power_native_test_v_2_0
-vendor/lib/hw/power.default.so
 vendor/lib/hw/power.mt8183.so
 vendor/lib/libpowerhal.so
 vendor/lib/libpowerhalwrap_vendor.so
@@ -729,7 +725,6 @@ vendor/etc/init/rpmb_svc.rc|80c283b558ea8c04edcb70313a63f33d86d81208
 
 # Sensors
 vendor/lib/hw/sensors.mt8183.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/libksensor.so
 vendor/lib/librgbwlightsensor.so
 vendor/etc/init/android.hardware.sensors@1.0-service-mediatek.rc
