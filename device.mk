@@ -81,7 +81,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
     $(LOCAL_PATH)/configs/audio/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
-    $(LOCAL_PATH)/configs/audio/btle_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/btle_audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/voice_dsp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/voice_dsp_audio_policy_configuration.xml \
     $(LOCAL_PATH)/configs/audio/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml
 
