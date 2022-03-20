@@ -50,3 +50,7 @@ audio.dsp.data.factor=0.11
 
 # maximum backup size for factory reset whitelist in kB
 ro.recovery.wl.maxstore=921600
+
+# Avoid GFX Accel
+ro.config.avoid_gfx_accel=true
+
