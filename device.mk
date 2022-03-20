@@ -46,6 +46,7 @@ PRODUCT_PACKAGES += \
     factory_init.project.rc \
     factory_init.rc \
     fstab.mdump \
+    fstab.enableswap \
     fstab.mount_keys.ro \
     fstab.mount_keys.rw \
     fstab.mt8183 \
