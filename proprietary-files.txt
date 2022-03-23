@@ -26,6 +26,7 @@ vendor/etc/init/fireos.hardware.audio@2.0-service.rc|018a593b8919edcb6099b179316
 vendor/lib/fireos.hardware.audio@2.0.so|007c7c99c914883307e766ba1d99c1d4abd75637
 vendor/lib/fireos.hardware.audio@4.0.so|9a91f625890125eeea825a3acc1171303ccd17ad
 vendor/lib/fireos.hardware.audiosignalprocessor@1.0.so|3da73fa94698f47b40a15c8a27cc4f23044b84aa
+vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so|9420e137d8e993bb4fa6321a6fc6e7b801ffd432
 vendor/lib/hw/audio.primary.mt8183.so|5a4c5a8c424a3d4a8a943f5c136ec6c3876c4876|37c8551d121d9bf851e65cb0ac543a4e540566f2
 vendor/lib/hw/audio.r_submix.mt8183.so|d86169ba79e27e7126e3e43ecb73c8eb08be8526
 vendor/lib/hw/audio.usb.mt8183.so|56c5dde0e03ce3037ffed735ac562ca85a2f64da
