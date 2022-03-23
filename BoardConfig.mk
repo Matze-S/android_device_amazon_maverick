@@ -16,6 +16,8 @@
 
 DEVICE_PATH := device/amazon/maverick
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Platform
 TARGET_BOARD_PLATFORM := mt8183
 TARGET_BOOTLOADER_BOARD_NAME := maverick
