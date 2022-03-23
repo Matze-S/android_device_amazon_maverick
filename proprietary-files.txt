@@ -19,12 +19,19 @@ vendor/etc/init/pr_device_cert_id.rc
 # Audio - from maverick - maverick-user 7.0 PS7312 1271 amz-p,release-keys
 vendor/bin/atcid|5d4d03c9c92ef1ac92c6da65ed845b2c50bc17f1
 vendor/bin/audiocmdservice_atci|f86d9c17573b836b57ddb242cb1b6eb898a3afae
+vendor/bin/hw/fireos.hardware.audio@2.0-service|5cb39c68e3d58bc2a6faa1d9e56891f05fb0cb03
 vendor/etc/init/atcid.rc|f28d6730c3cdd44d54509993f533d682425cd368
 vendor/etc/init/audiocmdservice_atci.rc|c2bda8827aa2dff8c502f2ecbfcf535b6517ca89
+vendor/etc/init/fireos.hardware.audio@2.0-service.rc|018a593b8919edcb6099b179316b85cce8081f39
+vendor/lib/fireos.hardware.audio@2.0.so|007c7c99c914883307e766ba1d99c1d4abd75637
+vendor/lib/fireos.hardware.audio@4.0.so|9a91f625890125eeea825a3acc1171303ccd17ad
+vendor/lib/fireos.hardware.audiosignalprocessor@1.0.so|3da73fa94698f47b40a15c8a27cc4f23044b84aa
 vendor/lib/hw/audio.primary.mt8183.so|5a4c5a8c424a3d4a8a943f5c136ec6c3876c4876|37c8551d121d9bf851e65cb0ac543a4e540566f2
 vendor/lib/hw/audio.r_submix.mt8183.so|d86169ba79e27e7126e3e43ecb73c8eb08be8526
 vendor/lib/hw/audio.usb.mt8183.so|56c5dde0e03ce3037ffed735ac562ca85a2f64da
 vendor/lib/hw/audio.voice_dsp.default.so|e788c4b2fc2a3331172f181aaa5c31d9e5c27c60
+vendor/lib/hw/fireos.hardware.audio@4.0-impl.so|598de997743ada9a97b99efc87f66a016c221391
+vendor/lib/hw/fireos.hardware.audiosignalprocessor@1.0-impl.so|bd81c3687204d9c8b362f6fdffd5daac4d16bc49
 vendor/lib/libMtkSpeechEnh.so|e95d0fa7150e28a05ebf319138f42ed595ddfeb7
 vendor/lib/lib_iir.so|d407555b846ce084aee36d24a7cf070bcae38ffb
 vendor/lib/lib_speech_enh.so|185ba5c83e01b7cca62c6582993a22cef243c3cd
