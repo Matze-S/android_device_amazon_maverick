@@ -67,8 +67,12 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio@2.0.vendor \
+    android.hardware.audio@4.0.vendor \
     android.hardware.audio.effect@4.0-impl \
+    android.hardware.audio.effect@2.0.vendor \
     android.hardware.soundtrigger@2.1-impl \
+    android.hardware.soundtrigger@2.0.vendor \
     libtinycompress \
     libalsautils \
     libnbaio_mono \
@@ -99,6 +103,7 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
+    android.hardware.bluetooth.a2dp@1.0.vendor \
     audio.a2dp.default
 
 # Camera
