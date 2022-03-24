@@ -64,6 +64,9 @@ function blob_fixup() {
 	vendor/lib/libladder.so)
 	    "${PATCHELF}" --replace-needed "libunwindstack.so" "libunwindstack_v28.so" "${2}"
 	    ;;
+	vendor/bin/hw/hostapd)
+            "${PATCHELF}" --add-needed "libshim_binder.so" "${2}"
+            ;;
         vendor/lib/hw/audio.primary.mt8183.so)
             "${PATCHELF}" --replace-needed "libmedia_helper.so" "libmedia_helper_v28.so" "${2}"
             "${PATCHELF}" --replace-needed "libxml2.so" "libxml2_v28.so" "${2}"

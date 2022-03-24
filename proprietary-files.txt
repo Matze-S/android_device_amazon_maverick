@@ -747,7 +747,7 @@ vendor/bin/wmt_launcher|44b3ad99068ef6c57c49d01f06037b764b8fa352
 vendor/bin/wmt_loader|18238e5fdb3d60022707b2d94602a5cd5ebe974c
 vendor/bin/wmt_loopback|81a03fd59b18781a1f163ed609d36ba977dbaa12
 vendor/bin/hw/wpa_supplicant|6fc8170c0469764a0860189a79aff9a3dde0c54e
-vendor/bin/hw/hostapd|3d79258da7964425eab20f1685c6e464788289f4
+vendor/bin/hw/hostapd|1a070ae81812c5f16c82f0ebde0db221f4c5559e|1459e2dd195bc0e550086624847dcf7ba83202d6
 vendor/lib/libwifi-hal.so:vendor/lib/libwifi-hal-mtk.so|5e6398cb2e7f442e2fbb78f4a30514f0fb4dc9f7
 vendor/lib/libwifitest.so|0dee7ea03b8395130a0ec5f033301668428ee337
 vendor/etc/init/init.bt_drv.rc|950b6a6a338ab5a8fd6660375f27f6c22f79325f
