@@ -225,7 +225,8 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     libshim_nvram \
-    libshim_binder
+    libshim_binder \
+    libshim_ladder
 
 # WiFi
 PRODUCT_PACKAGES += \

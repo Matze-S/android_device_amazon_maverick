@@ -12,3 +12,8 @@ cc_library_shared {
         proprietary: true,
 }
 
+cc_library_shared {
+        name: "libshim_ladder",
+        srcs: ["libshim_ladder.cpp"],
+        proprietary: true,
+}
