@@ -228,6 +228,11 @@ PRODUCT_PACKAGES += \
     libshim_binder \
     libshim_ladder
 
+# Seccomp
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/seccomp/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
+    $(LOCAL_PATH)/configs/seccomp/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0.vendor \
