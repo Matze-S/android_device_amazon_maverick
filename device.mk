@@ -226,7 +226,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_nvram \
     libshim_binder \
-    libshim_ladder
+    libshim_ladder \
+    libshim_keymaster
 
 # Seccomp
 PRODUCT_COPY_FILES += \

@@ -71,6 +71,9 @@ function blob_fixup() {
             "${PATCHELF}" --replace-needed "libmedia_helper.so" "libmedia_helper_v28.so" "${2}"
             "${PATCHELF}" --replace-needed "libxml2.so" "libxml2_v28.so" "${2}"
             ;;
+        vendor/lib/hw/keystore.mt8183.so)
+            "${PATCHELF}" --add-needed "libshim_keymaster.so" "${2}"
+            ;;
 	vendor/lib/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libprotobuf-cpp-lite.so" "libprotobuf-cpp-lite_v28.so" "${2}"
             ;;
