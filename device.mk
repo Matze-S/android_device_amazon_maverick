@@ -25,6 +25,9 @@ TARGET_SCREEN_DENSITY := 240
 # Product Characteristics
 PRODUCT_CHARACTERISTICS := tablet
 
+# Enable DM file pre-opting to reduce first boot time
+PRODUCT_DEX_PREOPT_GENERATE_DM_FILES := true
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 1200
 TARGET_SCREEN_HEIGHT := 1920
