@@ -22,6 +22,9 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 # Inherit Dalvik heap props for a 10in, 2048MB tablet
 $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-heap.mk)
 
+# Inherit Go defaults.
+$(call inherit-product, build/target/product/go_defaults.mk)
+
 # Inherit from maverick device
 $(call inherit-product, device/amazon/maverick/device.mk)
 
