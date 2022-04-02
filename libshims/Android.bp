@@ -17,3 +17,9 @@ cc_library_shared {
         srcs: ["libshim_ladder.cpp"],
         proprietary: true,
 }
+
+cc_library_shared {
+        name: "libshim_keymaster",
+        srcs: ["libshim_keymaster.cpp"],
+        proprietary: true,
+}
