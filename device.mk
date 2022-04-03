@@ -69,6 +69,8 @@ PRODUCT_PACKAGES += \
     ueventd.mtk.rc
 
 # Audio
+TARGET_EXCLUDES_AUDIOFX := true
+
 PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.1-impl \
     libtinycompress \
