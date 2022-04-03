@@ -105,10 +105,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # Configstore
 PRODUCT_PACKAGES += \
     android.hardware.configstore@1.1-service
